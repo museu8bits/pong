@@ -34,14 +34,15 @@ void Plataforma::raquete()
     ofDrawRectangle(xre,yre,hr,lr);
 }
 
-void Plataforma::colisao()
-{
-    int proe;
-    int prod;
-    
-    proe=xre+lr;
-    prod=xrd;
-    
-    if(xb<proe) vx=vx*(-1);
-    if(xb>prod) vx=vx*(-1);
-}
+
+//void Plataforma::colisao()
+//{
+//    int proe;
+//    int prod;
+//    
+//    proe=xre+lr;
+//    prod=xrd;
+//    
+//    //if(xb<proe) vx=vx*(-1);
+//    //if(xb>prod) vx=vx*(-1);
+//}
